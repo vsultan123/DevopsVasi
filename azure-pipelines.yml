@@ -10,6 +10,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+name: “$(Major).$(Minor).$(Patch).$(Build.BuildNumber)”
+
 steps:
 - task: Maven@3
   inputs:
