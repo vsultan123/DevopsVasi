@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: angularcontainervasi
-        image: vsultan/angularapp:786
+        image: vsultan/angularapp:143
         ports:
         - containerPort: 80
